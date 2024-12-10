@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./photos/game coder.jpeg"
+      type="image/x-icon"
+    />
+    <title>Portfolio_Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="home" class="home">
+      <div class="intro">
+        <h1>
+          Welcome! <br />
+          I'm Subham Pradhan
+        </h1>
+        <p>A Passionate Web Developer</p>
+        <img
+          src="./photos/game coder.jpeg"
+          alt="Profile Picture"
+          class="profile-img"
+        />
+        <div class="cta">
+          <button>View My Work</button>
+          <button>Hire Me</button>
+          <a href="./photos/subham cv.jpg" download class="cv-button">
+            <i class="fa-solid fa-file-arrow-down"></i> Download My CV
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="hamburger-menu">
+      <input type="checkbox" id="menuToggle" class="menu-checkbox" />
+      <label for="menuToggle" class="menu-icon">
+        <i class="fa fa-bars"></i>
+      </label>
+      <nav id="mobileMenu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section id="about" class="about" style="background-color: aquamarine">
+      <h2>About Me</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. officia dicta
+        ad deleniti porro natus accusantium repudiandae cumque debitis,
+        provident sapiente fugit. Adipisci officiis exercitationem architecto?
+        Tempore eligendi soluta ut reprehenderit repellat accusantium odit saepe
+        recusandae optio eos laboriosam adipisci explicabo corporis quisquam
+        quidem earum porro nemo, maiores velit quia illo similique dolore!
+        Consequuntur recusandae explicabo quisquam quae aspernatur, veritatis
+        accusamus. Voluptas magnam dignissimos quisquam labore ex sint eligendi
+        nulla esse placeat aspernatur sit totam, et rem fugiat saepe autem
+        nesciunt inventore sunt veniam excepturi expedita ipsam neque. Non totam
+        voluptatum architecto impedit quaerat quos quasi placeat labore,
+        doloremque velit sint consequuntur tempore necessitatibus sed porro
+        molestias! Tenetur, repellendus ducimus sed quo rerum, corrupti adipisci
+        perspiciatis blanditiis sit, quasi modi iste. Quas minus asperiores
+        minima officiis dolores at! Maxime necessitatibus et veritatis sunt quod
+        similique quis eos, error ipsam aperiam architecto odio possimus
+        officiis iure obcaecati, omnis accusamus. Odit error provident inventore
+        quis facilis harum excepturi ut corporis neque aut libero amet eligendi
+        voluptate perferendis ipsum ipsa adipisci, accusamus doloribus autem. Ab
+        ea iure impedit odit omnis ducimus officiis? Officiis nisi blanditiis
+        aliquid! Eius excepturi expedita deserunt culpa. Vitae, dicta dolor?
+        Nemo animi perspiciatis quae hic doloribus quod modi voluptates
+        aspernatur, nostrum laboriosam, laudantium rerum voluptatem molestias
+        recusandae sit doloremque alias maxime provident, facilis assumenda
+        quisquam iure vel quia? Fuga, adipisci doloremque consequuntur quaerat
+        quos optio necessitatibus? Ratione aperiam nulla quidem?
+      </p>
+      <h3>Skills</h3>
+      <div class="skills">
+        <div class="skill">
+          <label>HTML</label>
+          <div class="progress-bar"><span style="width: 90%"></span></div>
+        </div>
+        <div class="skill">
+          <label>CSS</label>
+          <div class="progress-bar"><span style="width: 80%"></span></div>
+        </div>
+      </div>
+      <h3>Hobbies & Interests</h3>
+      <ul class="hobbies">
+        <li>📸 Photography</li>
+        <li>🎮 Gaming</li>
+        <li>🍜 Eating</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects" style="background-color: aqua">
+      <h2>Projects</h2>
+      <br />
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="./photos/our content.jpeg" alt="Project 1" />
+          <h3>Project Title 1 <br />Travel Webpage</h3>
+          <p>Short description of the project.</p>
+        </div>
+        <div class="project-card">
+          <img src="./photos/images.jpeg" alt="Project 2" />
+          <h3>Project Title 2</h3>
+          <p>Short description of the project.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact" style="background-color: skyblue">
+      <h2>Contact Me</h2>
+      <br />
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input
+          type="hidden"
+          name="access_key"
+          value="76533471-0241-4c66-8918-c2a49749937b"
+        />
+
+        <input type="text" placeholder="Your Name" name="Full_name" required />
+        <input type="email" placeholder="Your Email" name="email" required />
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+        <br /><br />
+      </form>
+      <div class="social-icons">
+        <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <nav>
+        <a href="#home">Home</a> | <a href="#about">About</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#home" class="back-to-top">
+        <i class="fa fa-arrow-up"></i> Back to Top
+      </a>
+    </footer>
+  </body>
+</html>
